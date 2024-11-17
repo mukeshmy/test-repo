@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="box">
+        <div id="box-1">
+            <h3>Enter Temperature</h3>
+            <p id="degree">Degree</p>
+            <input type="number" value="0" id="input-number">
+            <select id="select-from">
+                <option value="C">&deg;C</option>
+                <option value="F">&deg;F</option>
+            </select>
+            <p id="convert-in">Convert In</p>
+            <select id="select-to">
+                <option value="C">Celsius(&deg;C)</option>
+                <option value="F">Fahrenheit(&deg;F)</option>
+            </select>
+            <br>
+
+            <button id="button" onclick="convert()">Convert &#8594</button>
+
+            
+        </div>
+        <div id="box-result">
+            <div id="result">
+                <h1 id="degree-result">38&deg;F</h1>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
